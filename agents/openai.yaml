@@ -1,0 +1,6 @@
+interface:
+  display_name: "六爻综合断卦"
+  short_description: "依据完整排盘分析吉凶、股票路径与条件性应期"
+  default_prompt: "Use $liuyao-divination to analyze this complete Liu Yao chart concisely, with a direct verdict, reasoning chain, advice, closing phrase, and conditional timing window. For stocks, separate market direction, holder outcome, and trade timing."
+policy:
+  allow_implicit_invocation: true
