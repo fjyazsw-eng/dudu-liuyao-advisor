@@ -2,6 +2,10 @@
 name: liuyao-divination
 description: Analyze an already generated Liu Yao (六爻/纳甲) chart for a concrete question, including relationships, work, wealth, stocks, timing and other topics, using 用神、世应、月日旺衰、动变、空破墓合、飞伏、六神、卦辞爻辞、吉凶趋势与条件性应期. Use when the user supplies a complete or substantially complete chart and wants a concise traditional divination judgment. Do not use to cast a new chart from coins, time, or numbers.
 ---
+## A 股现实数据强制规则
+
+股票分析前必须读取仓库根目录 `DATA_SOURCES.md`：hithink-finance 为唯一主源，mootdx 仅补充分钟线；禁用 Tushare 和其他自动回退，失败或能力缺失明确报错。起局/起卦之后的数据仅可用于复盘；未来交易日历或公告原文若主源不支持，明确记为无法验证，不得编造。
+
 
 # 六爻综合断卦
 
