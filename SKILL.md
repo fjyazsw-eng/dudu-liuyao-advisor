@@ -4,7 +4,7 @@ description: Analyze an already generated Liu Yao (六爻/纳甲) chart for a co
 ---
 ## A 股现实数据强制规则
 
-股票分析前必须读取仓库根目录 `DATA_SOURCES.md`：hithink-finance 为唯一主源，mootdx 仅补充分钟线；禁用 Tushare 和其他自动回退，失败或能力缺失明确报错。起局/起卦之后的数据仅可用于复盘；未来交易日历或公告原文若主源不支持，明确记为无法验证，不得编造。
+股票分析前必须读取仓库根目录 `DATA_SOURCES.md`：hithink-finance 为唯一主源，AKShare 新浪分钟线仅补充分钟线；禁用 Tushare 和其他自动回退，失败或能力缺失明确报错。起局/起卦之后的数据仅可用于复盘；未来交易日历或公告原文若主源不支持，明确记为无法验证，不得编造。
 
 
 # 六爻综合断卦
@@ -80,3 +80,4 @@ description: Analyze an already generated Liu Yao (六爻/纳甲) chart for a co
 ```
 
 把握弱时仍要给倾向，但应缩小断言范围，不用更多细节掩饰不确定性。
+
